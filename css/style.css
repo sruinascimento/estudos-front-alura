@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --primary-color-backgroud: #0D0D0D;
     --primary-color-text:#8507D9;
@@ -5,6 +12,8 @@
 }
 
 body {
+    box-sizing: border-box;
     background-color: var(--primary-color-backgroud);
     color:var(--primary-color-text);
+    height: 100vh;
 }
