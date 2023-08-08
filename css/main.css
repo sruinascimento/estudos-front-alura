@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10% 15%;
+    padding: 6% 15%;
 }
 
 .apresentacao__conteudo {
@@ -31,19 +31,32 @@
 
 .apresentacao__conteudo__links {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__conteudo__links__subtitulo {
+    font-weight: 400;
+    font-family: 'Krona One', sans-serif;
+    font-size: 24px;
 }
 
 .apresentacao__conteudo__links__link {
-    background-color: var(--second-color-text);
+    border: 2px solid var(--second-color-text);
     width: 280px;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     text-align: center;
-    padding: 21.5px 0;
+    padding: 15px 0;
     text-decoration: none;
     color: var(--primary-color-text);
     font-weight: 600;
+    transition: 0.5s;
+}
+
+.apresentacao__conteudo__links__link:hover {
+    background-color: var(--second-color-background);
 }
 
 .apresentacao__avatar{

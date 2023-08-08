@@ -1,0 +1,9 @@
+.rodape {
+    background-color: var(--primary-color-text);
+    color: var(--second-color-text);
+    text-align: center;
+    padding: 24px;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
