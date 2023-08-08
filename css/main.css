@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10% 15%;
+    padding: 6% 15%;
 }
 
 .apresentacao__conteudo {
@@ -52,6 +52,11 @@
     text-decoration: none;
     color: var(--primary-color-text);
     font-weight: 600;
+    transition: 0.5s;
+}
+
+.apresentacao__conteudo__links__link:hover {
+    background-color: var(--second-color-background);
 }
 
 .apresentacao__avatar{
