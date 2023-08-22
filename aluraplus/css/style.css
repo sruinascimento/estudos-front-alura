@@ -1,0 +1,31 @@
+:root {
+    --main-font-color: #FFFFFF;
+    --second-font-color: #C0C0C0;
+    --button-color: #167DF7;
+    --main-background-color: #00030C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    background-color: var(--main-background-color);
+}
+
+.main-content {
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    height: 100vh;
+}
+
+
+.main-title {
+    color: var(--main-font-color)
+}
