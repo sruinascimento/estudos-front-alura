@@ -23,9 +23,31 @@ body {
 
 .container {
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
 }
+
 
 
 .main-title {
     color: var(--main-font-color)
+}
+
+.container__button {
+    background-color: var(--button-color);
+    border-radius: 5px;
+    padding: 16px;
+    color: var(--main-font-color);
+    display: block;
+    width: 300px;
+    text-align: center;
+}
+
+.button__second {
+    background-color: transparent;
+    border: 1px solid var(--main-font-color);
+}
+
+.container__text {
+    color: var(--second-font-color);
 }
