@@ -1,0 +1,12 @@
+.page-header {
+    background-color: var(--background-color-header);
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-header__menu-hambuger {
+    height: 48px;
+    width: 48px;
+    background-image: url("../assets/Menu.svg");
+    display: inline-block;
+}
